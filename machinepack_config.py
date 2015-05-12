@@ -18,6 +18,7 @@ CONFIG = {
        "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     'install_requires': [
+        'requests',
         'machinepack'
     ],
 
