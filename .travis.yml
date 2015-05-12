@@ -6,6 +6,7 @@ install:
   - travis_retry pip install tox
   - pip install coveralls
   - pip install pylint
+  - pip install machinepack
 script:
   - travis_retry tox
 notifications:
